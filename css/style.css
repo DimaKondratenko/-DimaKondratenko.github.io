@@ -31,3 +31,31 @@ body {
 	display: block;
 	clear: both;
 }
+
+.menu li {
+  	width: 140px;
+	float: left;
+	border-left: 1px solid #2C71B8;
+
+}
+.menu li a {
+	display: block;
+	 text-align: center;
+	height: 50px;
+    line-height: 50px;
+	text-decoration: none;
+	font-size: 21px;
+	font-weight: 300;
+	color: #2C71B8;
+}
+.menu li:last-child {
+	border-right: 1px solid #2C71B8;
+}
+
+[class*="col-"] {
+	float: left;
+}
+.menu li a:hover {
+	background: #2C71B8;
+	color: white;
+}
