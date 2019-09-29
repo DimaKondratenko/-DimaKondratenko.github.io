@@ -79,3 +79,24 @@ body {
 	top: 9px;
 	right: 37px;
 }
+
+input[type="text"] {
+	border: none;
+	background: none;
+	width: 164px;
+	height: 36px;
+	font-size: 21px;
+    font-weight: 300;
+	color: #2C71B8;
+	
+}
+ input[type="text"]:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+	   color: #2C71B8;
+	   font-size: 21px;
+      font-weight: 300;
+	  padding-left: 19px;
+}
