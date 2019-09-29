@@ -100,3 +100,9 @@ input::-webkit-input-placeholder {
       font-weight: 300;
 	  padding-left: 19px;
 }
+
+.box {
+	width: 40px;
+	height: 40px;
+	background: white;
+}
