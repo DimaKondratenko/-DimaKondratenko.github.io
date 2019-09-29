@@ -17,3 +17,12 @@ body {
 	background: rgba(255,255,255,0.75);
 	color: #2C71B8;
 }
+
+.col-md-3 {
+	width: 25%;
+} 
+
+.col-md-6 {
+	width: 50%;
+	
+}
