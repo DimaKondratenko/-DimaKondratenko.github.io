@@ -31,6 +31,9 @@ body {
 	display: block;
 	clear: both;
 }
+.logo {
+	padding-top: 8px;
+}
 
 .menu li {
   	width: 140px;
