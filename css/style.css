@@ -6,6 +6,11 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background: url(../img/patt.png);
 }
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
 .header {
 	padding: 25px 0;
 	height: 100px;
