@@ -66,3 +66,16 @@ body {
  	height: 37px;
     top: 10px;
  	border: 1px solid  #2C71B8;
+ }
+
+ .btn {
+	position: absolute;
+	width: 29px;
+	height: 29px;
+	background: #2C71B8;
+	text-align: center;
+	line-height: 29px;
+	cursor: pointer;
+	top: 9px;
+	right: 37px;
+}
