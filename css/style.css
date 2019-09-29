@@ -106,3 +106,20 @@ input::-webkit-input-placeholder {
 	height: 40px;
 	background: white;
 }
+
+.col-md-2 {
+	position: relative;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	padding-top: 4px;
+
+
+}
+.col-md-10 {
+	position: relative;
+	width: 80%;
+	height: 50px; 
+	padding-top: 5px;
+}
