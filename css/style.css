@@ -26,3 +26,8 @@ body {
 	width: 50%;
 	
 }
+.row:after {
+	content = '';
+	display: block;
+	clear: both;
+}
