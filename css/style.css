@@ -39,6 +39,7 @@ body {
   	width: 140px;
 	float: left;
 	border-left: 1px solid #2C71B8;
+	position: relative;
 
 }
 .menu li a {
@@ -62,9 +63,12 @@ body {
 	background: #2C71B8;
 	color: white;
 }
+.menu li:hover .submenu {
+	display: block;
+}
 
 .form {
- 	
+ 	margin-left: 5px; 
  	width: 	200px;
  	height: 37px;
     top: 10px;
@@ -100,8 +104,9 @@ input[type="text"] {
 input::-webkit-input-placeholder {
 	   color: #2C71B8;
 	   font-size: 21px;
-      font-weight: 300;
-	  padding-left: 19px;
+       font-weight: 300;
+	   padding-left: 19px;
+	   font-family: 'Roboto', sans-serif;
 }
 
 .box {
@@ -112,7 +117,7 @@ input::-webkit-input-placeholder {
 
 .col-md-2 {
 	position: relative;
-	width: 15%;
+	width: 20%;
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
@@ -130,7 +135,7 @@ input::-webkit-input-placeholder {
 .img4 {
 	position: absolute;
 	top:-5px;
-	right: 31px;
+	right: 46px;
 }
 .img4 a {
 
@@ -145,3 +150,47 @@ input::-webkit-input-placeholder {
 	text-decoration: none;
 	line-height: 20px;
 }
+
+.submenu {
+	display: none;
+	 width: 281px;
+	 text-align: left;
+	 background: #2C71B8; 
+	 
+}
+.submenu ul li {
+	width: 100%;
+	text-align: left;
+}
+.submenu ul li a {
+	display: block;
+	color: white;
+	text-align: left;
+	padding-left: 30px;
+}
+
+.submenu ul li a:hover {
+  color: #2C71B8;
+  background: #FFFFFF;
+}
+/*.submenu:hover .drop {
+	background: #2C71B8;
+	color: white;
+}*/
+
+  
+.drop::after {
+	content:'';
+    display:inline-block; 
+    width: 17px;
+    height: 18px;
+    background: url(../img/drop.png);
+    position: absolute;
+    background-size: contain;
+    top: 18px;
+    right: 10px;
+}
+   
+   	
+   
+ 
