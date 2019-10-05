@@ -190,7 +190,102 @@ input::-webkit-input-placeholder {
     top: 18px;
     right: 10px;
 }
+  
+.main_top {
+	height: 400px;
+	background: orange;
+}
+
+.main_central .row .col-md-3 .filter {
+	background: grey;
+	height: 850px ;
+}
+
+.main_central .row .col-md-6 {
+	 
+	height: 850px ;
+}
+.main_central .row .col-md-6 .laptop {
+	margin-bottom: 50px;
+}
+.main_central .row .col-md-6 .laptop h1 {
+	color:white;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.main_central .row .col-md-3 {
+	 
+	height: 850px ;
+}
+
+ .breadcrumb {
+ 	height: 70px;
+ 	line-height: 70px;
+ }
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+
+}
+ul.breadcrumb li+li:before {
+  padding: 2px;
+   color: #ACC1DD;
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+   color: #ACC1DD;
+   text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  
+  text-decoration: underline;
+}
+
+.main_central .row .col-md-6 .card_1 {
+   color: white;
+	padding: 0 28px;
+
+}
+
+ 
+ .main_central .row .col-md-6 .bgcard_img {
+  background: rgba(255,255,255,0.75);
+  width: 270px;
+  height: 180px;
    
-   	
-   
+  padding: 46px 84px;
+
+ }
+  .main_central .row .col-md-6 .card_1 .card_info {
+ 	 padding-top: 12px;
+ 	 font-weight: 300;
+ }
+ .main_central .row .col-md-6 .card_1 .card_info  h2 {
+		font-size: 30px;
+		font-weight: bold;
+		padding: 12px 0;
+ }
+.main_central .row .col-md-6 .card_1 .card_info span {
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 2px;
+}
+.main_central .row .col-md-6 .card_1 .card_info p {
+	padding-bottom: 19px; 
+	font-size: 24px;
+}
+.main_central .row .col-md-6 .card_1 .card_info .price p{
+	position: relative;
+	text-align: center;
+	font-size: 48px;
+}
+.main_central .row .col-md-6 .card_1 .card_info .price span {
+	 position: absolute;
+	 font-weight: 400;
+	 font-size: 24px;
+
+	 
+	 
+}
  
