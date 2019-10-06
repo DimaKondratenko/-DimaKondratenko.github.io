@@ -156,6 +156,7 @@ input::-webkit-input-placeholder {
 	 width: 281px;
 	 text-align: left;
 	 background: #2C71B8; 
+	 position: absolute;
 	 
 }
 .submenu ul li {
