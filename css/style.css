@@ -2,6 +2,7 @@
 	box-sizing: border-box;
 	
 }
+  
 body {
 	font-family: 'Roboto', sans-serif;
 	background: url(../img/patt.png);
@@ -312,7 +313,7 @@ ul.breadcrumb li a:hover {
  	right: 9px;
 }
 .bgcard_img  .icon1  {
-	padding-top: 2px;
+   	padding-top: 2px;
  	  border:1px solid black;
  	width: 28px;
  	height: 28px;
@@ -329,7 +330,7 @@ ul.breadcrumb li a:hover {
  }
   
 .bg4 {
-	padding-top: 60px;
+	3padding-top: 60px;
 }
 .bg5 {
 	padding-top: 40px;
@@ -477,3 +478,8 @@ footer {
   	font-size: 36px;
   	 font-weight:300;
   }
+  .arrow {
+	width: 12px;
+	height: 12px;
+	margin-left: 10px;
+}
