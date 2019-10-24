@@ -483,3 +483,17 @@ footer {
 	height: 12px;
 	margin-left: 10px;
 }
+label:before {
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before {
+	background: #FFFFFF;
+}
+input[type="checkbox"] {
+	display: none;
+}
