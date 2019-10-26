@@ -322,6 +322,38 @@ ul.breadcrumb li a:hover {
  	top: 46px;	
  	right: 9px;
 }
+.kvadr {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background: url(../img/8.png) no-repeat;
+	top:10px;
+	right: 13px; 
+	padding: 5px;
+	border:1px solid;
+	border-color: #2c71b8;
+	background-position: center;
+}
+.kvadr:hover {
+	background: #2c71b8 url(../img/6.png) no-repeat;
+	background-position: center;
+}
+.heart {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background: url(../img/5.png) no-repeat;
+	top:45px;
+	right: 13px; 
+	padding: 5px;
+	border:1px solid;
+	border-color: #2c71b8;
+	background-position: center;
+}
+.heart:hover {
+	background: #2c71b8 url(../img/7.png) no-repeat;
+	background-position: center;
+}
  
    
  .bgcard_img > .icon:hover {
