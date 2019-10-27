@@ -338,6 +338,12 @@ ul.breadcrumb li a:hover {
 	background: #2c71b8 url(../img/6.png) no-repeat;
 	background-position: center;
 }
+.slider div {
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding: 50px 0;
+}
 .heart {
 	position: absolute;
 	height: 25px;
