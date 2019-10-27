@@ -350,7 +350,7 @@ ul.breadcrumb li a:hover {
 	border-color: #2c71b8;
 	background-position: center;
 }
-.heart:hover {
+.heart:hover ,.liked {
 	background: #2c71b8 url(../img/7.png) no-repeat;
 	background-position: center;
 }
