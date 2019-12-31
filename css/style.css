@@ -82,6 +82,7 @@ body {
 	 background: #2C71B8; 
 	 position: absolute;
 	 right: -141px;
+	 z-index: 5;
 	 
 }
 .submenu   li {
@@ -356,11 +357,14 @@ ul.breadcrumb li a:hover {
 	border-color: #2c71b8;
 	background-position: center;
 }
-.heart:hover ,.liked {
+.heart:hover  {
 	background: #2c71b8 url(../img/7.png) no-repeat;
 	background-position: center;
 }
- 
+.liked  {
+	background: red url(../img/7.png) no-repeat;
+	background-position: center;
+}
    
  .bgcard_img > .icon:hover {
  	 background: #2C71B8;
@@ -570,4 +574,8 @@ input[type="checkbox"] {
 
  }
   
+ 
 
+ .size {
+ 	color: orange;
+ }
